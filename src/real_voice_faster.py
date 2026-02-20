@@ -26,7 +26,7 @@ SILENCE_HOLD_SECONDS = 1.0
 SILENCE_RMS_THRESHOLD = 0.012
 
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "base")  # tiny/base/small/medium/large-v3
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.2")
 
 SYSTEM_PROMPT = os.getenv(
     "SYSTEM_PROMPT",
