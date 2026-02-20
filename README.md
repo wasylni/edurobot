@@ -10,5 +10,30 @@ It uses OpenAI API to answer questions (but can be plugged in to your local LLM 
 It uses LocatTTS engine to read text replies generated to the user over the microphone.
 
 
+
+Requirements: 
+- Python 3 installed
+- access to microphone
+
+
+for Windows machine:
+
+```bash
+winget install Git.Git
+winget install Python.Python.3.11
+winget install Gyan.FFmpeg
+```
+
+Python libraries:
+```python
+pip install --upgrade openai
+pip install faster-whisper
+pip install sounddevice
+pip install scipy
+pip install numpy
+pip install pyttsx3
+```
+
+
 How to install: 
 
